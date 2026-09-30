@@ -1,0 +1,200 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1400 1000' width='1400' height='1000'>
+<rect width='1400' height='1000' fill='#0d1024'/>
+<text x='40' y='50' font-family='Helvetica,Arial,sans-serif' font-size='26' text-anchor='start' fill='#ffffff' font-weight='bold'>Light OS - wiring schematic</text>
+<text x='40' y='76' font-family='Helvetica,Arial,sans-serif' font-size='14' text-anchor='start' fill='#8a93b8' font-weight='normal'>ESP32 DevKit + GC9A01 round TFT + LDR + LED + buzzer + KY-040 rotary encoder + DHT11</text>
+<rect x='520' y='90' width='240' height='830' rx='14' fill='#151a3a' stroke='#6f7df0' stroke-width='2.5'/>
+<text x='640' y='122' font-family='Helvetica,Arial,sans-serif' font-size='18' text-anchor='middle' fill='#ffffff' font-weight='bold'>ESP32 DevKit</text>
+<text x='640' y='142' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#8a93b8' font-weight='normal'>(ESP32-WROOM-32)</text>
+<circle cx='520' cy='190' r='4' fill='#ff7a7a'/>
+<text x='532' y='194' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ff9a9a' font-weight='bold'>3V3</text>
+<line x1='520' y1='190' x2='470' y2='190' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='470' y1='190' x2='470' y2='180' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='456' y1='180' x2='484' y2='180' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<text x='470' y='174' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#ff9a9a' font-weight='bold'>3V3</text>
+<circle cx='520' cy='235' r='4' fill='#9aa3c7'/>
+<text x='532' y='239' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#9aa3c7' font-weight='bold'>GND</text>
+<line x1='520' y1='235' x2='470' y2='235' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='470' y1='235' x2='470' y2='245' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='456' y1='245' x2='484' y2='245' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='461' y1='251' x2='479' y2='251' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='466' y1='257' x2='474' y2='257' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<text x='470' y='275' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#9aa3c7' font-weight='normal'>GND</text>
+<text x='470' y='300' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#8a93b8' font-weight='normal'>(all modules are powered</text>
+<text x='470' y='315' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#8a93b8' font-weight='normal'>from the 3V3 pin - NOT 5V)</text>
+<circle cx='520' cy='430' r='4' fill='#ffe14d'/>
+<text x='532' y='434' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='normal'>GPIO34 (ADC1, input only)</text>
+<circle cx='520' cy='560' r='4' fill='#ff5d6c'/>
+<text x='532' y='564' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='normal'>GPIO16</text>
+<circle cx='520' cy='660' r='4' fill='#c084fc'/>
+<text x='532' y='664' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='normal'>GPIO17</text>
+<circle cx='760' cy='160' r='4' fill='#4da3ff'/>
+<text x='748' y='164' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='end' fill='#ffffff' font-weight='normal'>GPIO18  (SCK)</text>
+<circle cx='760' cy='200' r='4' fill='#4da3ff'/>
+<text x='748' y='204' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='end' fill='#ffffff' font-weight='normal'>GPIO23  (MOSI)</text>
+<circle cx='760' cy='240' r='4' fill='#4da3ff'/>
+<text x='748' y='244' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='end' fill='#ffffff' font-weight='normal'>GPIO5   (CS)</text>
+<circle cx='760' cy='280' r='4' fill='#4da3ff'/>
+<text x='748' y='284' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='end' fill='#ffffff' font-weight='normal'>GPIO2   (DC)</text>
+<circle cx='760' cy='320' r='4' fill='#4da3ff'/>
+<text x='748' y='324' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='end' fill='#ffffff' font-weight='normal'>GPIO15  (RST)</text>
+<circle cx='760' cy='500' r='4' fill='#3ddc84'/>
+<text x='748' y='504' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='end' fill='#ffffff' font-weight='normal'>GPIO32</text>
+<circle cx='760' cy='540' r='4' fill='#3ddc84'/>
+<text x='748' y='544' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='end' fill='#ffffff' font-weight='normal'>GPIO33</text>
+<circle cx='760' cy='580' r='4' fill='#3ddc84'/>
+<text x='748' y='584' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='end' fill='#ffffff' font-weight='normal'>GPIO25</text>
+<circle cx='760' cy='760' r='4' fill='#ffa53d'/>
+<text x='748' y='764' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='end' fill='#ffffff' font-weight='normal'>GPIO27</text>
+<line x1='330' y1='150' x2='330' y2='140' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='316' y1='140' x2='344' y2='140' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<text x='330' y='134' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#ff9a9a' font-weight='bold'>3V3</text>
+<line x1='330' y1='150' x2='330' y2='180' stroke='#ffe14d' stroke-width='2.5' stroke-linecap='round'/>
+<rect x='316' y='180' width='28' height='64' rx='4' fill='#1a1f45' stroke='#ffe14d' stroke-width='2'/>
+<text x='306' y='208' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='end' fill='#ffe14d' font-weight='bold'>LDR</text>
+<text x='306' y='224' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='end' fill='#8a93b8' font-weight='normal'>(photoresistor)</text>
+<path d='M 352 190 l -8 8 m 2 -6 l -2 -2 l 6 0 z' stroke='#ffe14d' fill='none' stroke-width='1.5'/>
+<line x1='330' y1='244' x2='330' y2='430' stroke='#ffe14d' stroke-width='2.5' stroke-linecap='round'/>
+<circle cx='330' cy='430' r='4' fill='#ffe14d'/>
+<line x1='330' y1='430' x2='520' y2='430' stroke='#ffe14d' stroke-width='2.5' stroke-linecap='round'/>
+<text x='430' y='422' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#ffe14d' font-weight='normal'>to ADC pin</text>
+<line x1='330' y1='430' x2='330' y2='470' stroke='#ffe14d' stroke-width='2.5' stroke-linecap='round'/>
+<rect x='316' y='470' width='28' height='64' rx='4' fill='#1a1f45' stroke='#ffe14d' stroke-width='2'/>
+<text x='306' y='506' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='end' fill='#ffe14d' font-weight='bold'>10 k</text>
+<line x1='330' y1='534' x2='330' y2='560' stroke='#ffe14d' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='330' y1='560' x2='330' y2='570' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='316' y1='570' x2='344' y2='570' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='321' y1='576' x2='339' y2='576' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='326' y1='582' x2='334' y2='582' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<text x='330' y='600' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#9aa3c7' font-weight='normal'>GND</text>
+<text x='330' y='405' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#8a93b8' font-weight='normal'>divider node</text>
+<line x1='520' y1='560' x2='480' y2='560' stroke='#ff5d6c' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='480' y1='560' x2='480' y2='700' stroke='#ff5d6c' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='480' y1='700' x2='455' y2='700' stroke='#ff5d6c' stroke-width='2.5' stroke-linecap='round'/>
+<polygon points='455,685 455,715 425,700' fill='none' stroke='#ff5d6c' stroke-width='2.5'/>
+<line x1='425' y1='685' x2='425' y2='715' stroke='#ff5d6c' stroke-width='2.5' stroke-linecap='round'/>
+<text x='440' y='672' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='middle' fill='#ff5d6c' font-weight='bold'>LED</text>
+<line x1='425' y1='700' x2='395' y2='700' stroke='#ff5d6c' stroke-width='2.5' stroke-linecap='round'/>
+<rect x='335' y='690' width='60' height='20' rx='3' fill='#1a1f45' stroke='#ff5d6c' stroke-width='2'/>
+<text x='365' y='684' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#ff5d6c' font-weight='bold'>220 ohm</text>
+<line x1='335' y1='700' x2='290' y2='700' stroke='#ff5d6c' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='290' y1='700' x2='290' y2='712' stroke='#ff5d6c' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='290' y1='712' x2='290' y2='722' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='276' y1='722' x2='304' y2='722' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='281' y1='728' x2='299' y2='728' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='286' y1='734' x2='294' y2='734' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<text x='290' y='752' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#9aa3c7' font-weight='normal'>GND</text>
+<text x='470' y='730' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#8a93b8' font-weight='normal'>long leg (anode) toward GPIO</text>
+<line x1='520' y1='660' x2='480' y2='660' stroke='#c084fc' stroke-width='2.5' stroke-linecap='round'/>
+<circle cx='452' cy='660' r='28' fill='none' stroke='#c084fc' stroke-width='2.5'/>
+<text x='470' y='655' font-family='Helvetica,Arial,sans-serif' font-size='18' text-anchor='middle' fill='#c084fc' font-weight='bold'>+</text>
+<text x='452' y='680' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#c084fc' font-weight='bold'>BZ</text>
+<line x1='424' y1='660' x2='395' y2='660' stroke='#c084fc' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='395' y1='660' x2='395' y2='600' stroke='#c084fc' stroke-width='2.5' stroke-linecap='round'/>
+<text x='452' y='620' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#c084fc' font-weight='bold'>Active buzzer</text>
+<line x1='395' y1='660' x2='395' y2='800' stroke='#c084fc' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='395' y1='800' x2='395' y2='810' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='381' y1='810' x2='409' y2='810' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='386' y1='816' x2='404' y2='816' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='391' y1='822' x2='399' y2='822' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<text x='395' y='840' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#9aa3c7' font-weight='normal'>GND</text>
+<text x='415' y='822' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='start' fill='#8a93b8' font-weight='normal'>(+ pin to GPIO17)</text>
+<rect x='1000' y='105' width='300' height='345' rx='10' fill='#151a3a' stroke='#4da3ff' stroke-width='2.5'/>
+<text x='1150' y='132' font-family='Helvetica,Arial,sans-serif' font-size='15' text-anchor='middle' fill='#ffffff' font-weight='bold'>GC9A01 1.28" round TFT</text>
+<text x='1150' y='150' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#8a93b8' font-weight='normal'>240x240, SPI, 7 pins</text>
+<line x1='760' y1='160' x2='1000' y2='160' stroke='#4da3ff' stroke-width='2.5' stroke-linecap='round'/>
+<circle cx='1000' cy='160' r='4' fill='#4da3ff'/>
+<text x='1012' y='164' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>SCL</text>
+<text x='880' y='154' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#8fbfff' font-weight='normal'>SCK</text>
+<line x1='760' y1='200' x2='1000' y2='200' stroke='#4da3ff' stroke-width='2.5' stroke-linecap='round'/>
+<circle cx='1000' cy='200' r='4' fill='#4da3ff'/>
+<text x='1012' y='204' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>SDA</text>
+<text x='880' y='194' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#8fbfff' font-weight='normal'>MOSI</text>
+<line x1='760' y1='240' x2='1000' y2='240' stroke='#4da3ff' stroke-width='2.5' stroke-linecap='round'/>
+<circle cx='1000' cy='240' r='4' fill='#4da3ff'/>
+<text x='1012' y='244' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>CS</text>
+<text x='880' y='234' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#8fbfff' font-weight='normal'>CS</text>
+<line x1='760' y1='280' x2='1000' y2='280' stroke='#4da3ff' stroke-width='2.5' stroke-linecap='round'/>
+<circle cx='1000' cy='280' r='4' fill='#4da3ff'/>
+<text x='1012' y='284' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>DC</text>
+<text x='880' y='274' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#8fbfff' font-weight='normal'>DC</text>
+<line x1='760' y1='320' x2='1000' y2='320' stroke='#4da3ff' stroke-width='2.5' stroke-linecap='round'/>
+<circle cx='1000' cy='320' r='4' fill='#4da3ff'/>
+<text x='1012' y='324' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>RST</text>
+<text x='880' y='314' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#8fbfff' font-weight='normal'>RST</text>
+<circle cx='1000' cy='370' r='4' fill='#ff7a7a'/>
+<text x='1012' y='374' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>VCC</text>
+<line x1='1000' y1='370' x2='960' y2='370' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='960' y1='370' x2='960' y2='360' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='946' y1='360' x2='974' y2='360' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<text x='960' y='354' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#ff9a9a' font-weight='bold'>3V3</text>
+<circle cx='1000' cy='410' r='4' fill='#9aa3c7'/>
+<text x='1012' y='414' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>GND</text>
+<line x1='1000' y1='410' x2='960' y2='410' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='960' y1='410' x2='960' y2='420' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='946' y1='420' x2='974' y2='420' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='951' y1='426' x2='969' y2='426' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='956' y1='432' x2='964' y2='432' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<text x='960' y='450' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#9aa3c7' font-weight='normal'>GND</text>
+<rect x='1000' y='470' width='300' height='235' rx='10' fill='#151a3a' stroke='#3ddc84' stroke-width='2.5'/>
+<text x='1150' y='497' font-family='Helvetica,Arial,sans-serif' font-size='15' text-anchor='middle' fill='#ffffff' font-weight='bold'>KY-040 rotary encoder</text>
+<text x='1150' y='515' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#8a93b8' font-weight='normal'>(5-pin module)</text>
+<line x1='760' y1='500' x2='1000' y2='500' stroke='#3ddc84' stroke-width='2.5' stroke-linecap='round'/>
+<circle cx='1000' cy='500' r='4' fill='#3ddc84'/>
+<text x='1012' y='504' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>CLK</text>
+<line x1='760' y1='540' x2='1000' y2='540' stroke='#3ddc84' stroke-width='2.5' stroke-linecap='round'/>
+<circle cx='1000' cy='540' r='4' fill='#3ddc84'/>
+<text x='1012' y='544' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>DT</text>
+<line x1='760' y1='580' x2='1000' y2='580' stroke='#3ddc84' stroke-width='2.5' stroke-linecap='round'/>
+<circle cx='1000' cy='580' r='4' fill='#3ddc84'/>
+<text x='1012' y='584' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>SW</text>
+<circle cx='1000' cy='625' r='4' fill='#ff7a7a'/>
+<text x='1012' y='629' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>+</text>
+<line x1='1000' y1='625' x2='960' y2='625' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='960' y1='625' x2='960' y2='615' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='946' y1='615' x2='974' y2='615' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<text x='960' y='609' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#ff9a9a' font-weight='bold'>3V3</text>
+<circle cx='1000' cy='670' r='4' fill='#9aa3c7'/>
+<text x='1012' y='674' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>GND</text>
+<line x1='1000' y1='670' x2='960' y2='670' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='960' y1='670' x2='960' y2='680' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='946' y1='680' x2='974' y2='680' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='951' y1='686' x2='969' y2='686' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='956' y1='692' x2='964' y2='692' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<text x='960' y='710' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#9aa3c7' font-weight='normal'>GND</text>
+<text x='1150' y='596' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#ff9a9a' font-weight='bold'>+ pin  ->  3V3 only!</text>
+<rect x='1000' y='745' width='300' height='180' rx='10' fill='#151a3a' stroke='#ffa53d' stroke-width='2.5'/>
+<text x='1150' y='772' font-family='Helvetica,Arial,sans-serif' font-size='15' text-anchor='middle' fill='#ffffff' font-weight='bold'>DHT11 module (3-pin)</text>
+<line x1='760' y1='760' x2='1000' y2='760' stroke='#ffa53d' stroke-width='2.5' stroke-linecap='round'/>
+<circle cx='1000' cy='760' r='4' fill='#ffa53d'/>
+<text x='1012' y='764' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>S / OUT (signal)</text>
+<text x='880' y='752' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#ffc27a' font-weight='normal'>GPIO27</text>
+<circle cx='1000' cy='820' r='4' fill='#ff7a7a'/>
+<text x='1012' y='824' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>VCC (+)</text>
+<line x1='1000' y1='820' x2='960' y2='820' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='960' y1='820' x2='960' y2='810' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='946' y1='810' x2='974' y2='810' stroke='#ff7a7a' stroke-width='2.5' stroke-linecap='round'/>
+<text x='960' y='804' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#ff9a9a' font-weight='bold'>3V3</text>
+<circle cx='1000' cy='880' r='4' fill='#9aa3c7'/>
+<text x='1012' y='884' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>GND (-)</text>
+<line x1='1000' y1='880' x2='960' y2='880' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='960' y1='880' x2='960' y2='890' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='946' y1='890' x2='974' y2='890' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='951' y1='896' x2='969' y2='896' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<line x1='956' y1='902' x2='964' y2='902' stroke='#9aa3c7' stroke-width='2.5' stroke-linecap='round'/>
+<text x='960' y='920' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='middle' fill='#9aa3c7' font-weight='normal'>GND</text>
+<text x='1150' y='910' font-family='Helvetica,Arial,sans-serif' font-size='11' text-anchor='middle' fill='#8a93b8' font-weight='normal'>check the printed labels on YOUR module</text>
+<text x='40' y='940' font-family='Helvetica,Arial,sans-serif' font-size='13' text-anchor='start' fill='#ffffff' font-weight='bold'>Wire colours:</text>
+<line x1='150' y1='936' x2='176' y2='936' stroke='#4da3ff' stroke-width='4' stroke-linecap='round'/>
+<text x='184' y='940' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='start' fill='#dfe3ff' font-weight='normal'>SPI display</text>
+<line x1='275' y1='936' x2='301' y2='936' stroke='#3ddc84' stroke-width='4' stroke-linecap='round'/>
+<text x='309' y='940' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='start' fill='#dfe3ff' font-weight='normal'>Encoder</text>
+<line x1='400' y1='936' x2='426' y2='936' stroke='#ffa53d' stroke-width='4' stroke-linecap='round'/>
+<text x='434' y='940' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='start' fill='#dfe3ff' font-weight='normal'>DHT11</text>
+<line x1='525' y1='936' x2='551' y2='936' stroke='#ffe14d' stroke-width='4' stroke-linecap='round'/>
+<text x='559' y='940' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='start' fill='#dfe3ff' font-weight='normal'>LDR</text>
+<line x1='650' y1='936' x2='676' y2='936' stroke='#ff5d6c' stroke-width='4' stroke-linecap='round'/>
+<text x='684' y='940' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='start' fill='#dfe3ff' font-weight='normal'>LED</text>
+<line x1='775' y1='936' x2='801' y2='936' stroke='#c084fc' stroke-width='4' stroke-linecap='round'/>
+<text x='809' y='940' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='start' fill='#dfe3ff' font-weight='normal'>Buzzer</text>
+<text x='40' y='972' font-family='Helvetica,Arial,sans-serif' font-size='12' text-anchor='start' fill='#8a93b8' font-weight='normal'>Full pin table and assembly steps: docs/wiring.md</text>
+</svg>
