@@ -321,7 +321,7 @@ more weather details (forecast), 3D-printed enclosure.
 Created by **mehrdadFreegan** - GitHub: [@mehrdad2200](https://github.com/mehrdad2200)
 
 - Email: mehrdad2200@gmail.com
-- Telegram channel: tm.favme
+- Telegram channel: http://t.me/favme
 
 For questions and bug reports please **open an issue** on GitHub so that everyone can benefit from the answer
 (see [CONTRIBUTING.md](CONTRIBUTING.md)). For security matters see [SECURITY.md](SECURITY.md).
