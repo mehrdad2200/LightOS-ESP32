@@ -13,30 +13,32 @@ shows indoor temperature/humidity and **outdoor weather**, has an **alarm and ti
 
 > Persian documentation: **[README.fa.md](README.fa.md)** (مستندات فارسی)
 
-![The 8 screens](docs/images/screens.svg)
+![All 8 screens on the real device](docs/images/screens-photo.jpg)
 
-*The image above is an illustrative render of the 8 screens, not a photo.
-Add photos of your own build to `docs/images/` and link them here.*
+*Photo of the 8 screens running on the real device.*
+
+> ▶ **[Watch the demo video on Telegram](https://t.me/favme/2774)**
 
 ---
 
 ## Table of contents
 
 1. [Features](#features)
-2. [Tested configuration](#tested-configuration)
-3. [What you need](#what-you-need)
-4. [Wiring](#wiring)
-5. [Software setup (step by step)](#software-setup-step-by-step)
-6. [First boot and opening the phone page](#first-boot-and-opening-the-phone-page)
-7. [Using it](#using-it)
-8. [Configuration](#configuration)
-9. [Repository layout](#repository-layout)
-10. [Documentation index](#documentation-index)
-11. [Security notes](#security-notes)
-12. [Known limitations and ideas](#known-limitations-and-ideas)
-13. [Credits and third-party notices](#credits-and-third-party-notices)
-14. [Author and contact](#author-and-contact)
-15. [License](#license)
+2. [Photos and demo](#photos-and-demo)
+3. [Tested configuration](#tested-configuration)
+4. [What you need](#what-you-need)
+5. [Wiring](#wiring)
+6. [Software setup (step by step)](#software-setup-step-by-step)
+7. [First boot and opening the phone page](#first-boot-and-opening-the-phone-page)
+8. [Using it](#using-it)
+9. [Configuration](#configuration)
+10. [Repository layout](#repository-layout)
+11. [Documentation index](#documentation-index)
+12. [Security notes](#security-notes)
+13. [Known limitations and ideas](#known-limitations-and-ideas)
+14. [Credits and third-party notices](#credits-and-third-party-notices)
+15. [Author and contact](#author-and-contact)
+16. [License](#license)
 
 ---
 
@@ -78,6 +80,28 @@ Add photos of your own build to `docs/images/` and link them here.*
 
 **Persistent settings**
 - Thresholds, LED mode, alarm, timer, beeps, auto-cycle and weather location survive power loss (stored in flash, written with debouncing to reduce wear).
+
+---
+
+## Photos and demo
+
+### Demo video
+
+[![Watch the demo video](docs/images/screens-photo.jpg)](https://t.me/favme/2774)
+
+▶ **[Watch the demo video on Telegram](https://t.me/favme/2774)** (opens in Telegram / Telegram Web)
+
+### Phone control page (English and Persian)
+
+| English | فارسی |
+|---|---|
+| ![Phone control page - English](docs/images/web-ui-en.png) | ![Phone control page - Persian](docs/images/web-ui-fa.png) |
+
+### Illustration of the 8 screens
+
+![Illustration of the 8 screens](docs/images/screens.svg)
+
+*This last picture is an illustrative render (not a photo) that shows each page by name: 0 Dashboard, 1 Digital clock, 2 Analog clock, 3 Temp/humidity, 4 Weather, 5 Alarm and timer, 6 Stats + IP, 7 Warp screensaver.*
 
 ---
 
@@ -261,6 +285,9 @@ LightOS-ESP32/
 |   +-- images/
 |       +-- schematic.svg        <- circuit schematic
 |       +-- screens.svg          <- illustration of the 8 screens
+|       +-- screens-photo.jpg    <- photo of the 8 screens on the real device
+|       +-- web-ui-en.png        <- phone page screenshot (English)
+|       +-- web-ui-fa.png        <- phone page screenshot (Persian)
 +-- firmware/
 |   +-- light_os/
 |   |   +-- light_os.ino         <- the main firmware
@@ -321,7 +348,7 @@ more weather details (forecast), 3D-printed enclosure.
 Created by **mehrdadFreegan** - GitHub: [@mehrdad2200](https://github.com/mehrdad2200)
 
 - Email: mehrdad2200@gmail.com
-- Telegram channel: http://t.me/favme
+- Telegram channel: [@favme](https://t.me/favme) - demo video: [t.me/favme/2774](https://t.me/favme/2774)
 
 For questions and bug reports please **open an issue** on GitHub so that everyone can benefit from the answer
 (see [CONTRIBUTING.md](CONTRIBUTING.md)). For security matters see [SECURITY.md](SECURITY.md).
